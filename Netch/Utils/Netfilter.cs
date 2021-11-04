@@ -84,12 +84,12 @@ namespace Netch.Utils
                         return false;
                     }
 
-                    File.Delete(oPath);
+                    //File.Delete(oPath);
                 }
             }
             catch (Exception e)
             {
-                Global.Logger.Error($"删除 Netfilter 驱动失败：{e}");
+                //Global.Logger.Error($"删除 Netfilter 驱动失败：{e}");
             }
 
             return true;

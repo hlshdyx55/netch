@@ -62,14 +62,14 @@ namespace Netch.Utils
             {
                 if (File.Exists(oPath))
                 {
-                    File.Delete(oPath);
+                    //File.Delete(oPath);
                 }
             }
             catch (Exception e)
             {
-                Global.Logger.Error($"删除 WinTUN 驱动失败：{e}");
+                //Global.Logger.Error($"删除 WinTUN 驱动失败：{e}");
 
-                return false;
+                //return false;
             }
 
             return true;
